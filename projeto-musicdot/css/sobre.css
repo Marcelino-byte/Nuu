@@ -1,0 +1,38 @@
+body{
+    font-family: Helvetica, Lucida Grande, sans-serif;
+    /*border: 3px solid chartreuse;*/
+    color: #3d3d3d;
+    width: 940px;
+    text-align: center;
+}
+h1{
+    padding: 10px ;
+    background-color: #E1EDF2;
+}
+h2{
+    border-bottom: 3px solid black;
+    
+}
+figure{
+    padding: 15px 30px ;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px  solid lightgrey ;
+    
+    
+}
+figcaption{
+    padding: 10px;
+}
+p{
+    color: darkorchid; background-color: rgb(231, 166, 179);
+    height: auto;
+    width: 300px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 33px; /*tamanho da altura de cada linha */
+    letter-spacing: 3px;/* espaço entre cada letra */
+    word-spacing: 5px;/* espaço ente cada palavra */
+    text-indent:	30px;	/*	tamanho	da	margem	da	primeira	linha	do	texto	*/
+}
+
