@@ -25,37 +25,41 @@
     
     padding:	1.86em	1.42em;		
 }
-.cabecalho__item-matricula{
-    background-color: #e93d50;
-    padding-left: 1.42em;
-    border-radius: 6px;
-}
 
 
 p{
     color: #2e4255;
 }
-@media (min-width: 640px){
-    .cabecalho	{
-        padding:	0	5%;
-        display:	flex;
-        justify-content:	space-between;
-        align-items:	center
+@media	(min-width:	640px)	{				
+    .cabecalho	{						
+        padding:	0	5%;						
+        display:	flex;						
+        justify-content:	space-between;						
+        align-items:	center;				
     }
-    .cabecalho__logo	{
-        padding:	2.5em	0;
-       
+				
+    .cabecalho__logo	{						
+         padding:	2.5em	0;				
+        }
+				
+    .cabecalho__menu	{						
+        background-color:	transparent;					
+    }		
+}
+
+@media	(min-width:	770px)	{	
+    .cabecalho__item-menu--matricular	{
+        margin-left:	1.42em;	
+        border-radius:	6px;
+        background-color:	#e93d50;
+    }
+    .cabecalho__item-menu--matricular	a	{
+        padding:	1.8em	3.5em;
     }	
-    .cabecalho__menu	{	
-        background-color:	transparent ;
-        	
-    }   
-
+}	
+@media	(min-width:	1066px)	{
+    .cabecalho	{
+        padding-left:	calc((100%	-	960px)	/	2);	
+        padding-right:	calc((100%	-	960px)	/	2);	
+	}	
 }
-
-@media(min-width:1066px){
-    .cabecalho{
-        max-width: 940px;
-    }
-}
-
