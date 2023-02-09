@@ -3,12 +3,15 @@
   <head>
     <title> MusicDot</title>
     <meta charset="utf-8">
+    <link	rel="stylesheet"	href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500, 600,700,&display=block">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/rodape.css"> 
+    <link rel="stylesheet" href="css/form-newsletter.css">
+    <link rel="stylesheet" href="css/container.css">
   </head>
   <body>
-    <header class="cabecalho">
+    <header class="cabecalho 	container">
       <a href="index.html">
         <img src="img/musicdot-logo-light.svg" title="Ir para pagina inicial da MusicDot" alt="Musicdot" >
       </a>
@@ -24,9 +27,9 @@
     <main>
       Conteudo Principal
     </main>
-    <footer class="rodape">
+    <footer class="rodape 	container">
       <!--Rodapé-->
-      <section 	class="rodape__secao"	>
+      <section 	class="rodape__secao 	rodape__secao--sobre"	>
         <img src="img/logo.svg" alt="Logo MusicDot" class="rodape__logo">
         <p 	class="rodape__infos-empresa">
           AOVS Sistemas de Informática S.A. 
@@ -57,8 +60,8 @@
         </ul>
       </section>
 
-      <section class="rodape__secao">
-        <h2 class="rodape__titulo">Cursos de MusicDot</h2>
+      <section class="rodape__secao rodape__secao--cursos">
+        <h2 class="rodape__titulo" >Cursos de MusicDot</h2>
         <nav>
           <ul>
             <li 	class="rodape_item-lista"><a	href="#">Cursos	de	Teclado	&	Piano</a></li>
@@ -75,7 +78,7 @@
         </nav>
 
       </section>
-      <section class="rodape__secao">	
+      <section class="rodape__secao rodape__secao--links	">	
         <h2 class="rodape__titulo">	MusicDot	</h2>	
         <nav>	
           <ul>
@@ -88,6 +91,17 @@
             <li 	class="rodape_item-lista"><a	href="#">Contato</a></li>
           </ul>
         </nav>	
+      </section>
+      <section	class="rodape__secao 	rodape__secao--newsletter	">
+        <h2	class="rodape__titulo">		Receba	novidades	e	lançamentos	</h2>	
+        <form	action="#"	method="get"	class="form-newsletter">
+          <label	for="form-newsletter__label"	class="form-newsletter__label">Seu	email	pessoal	</label>
+          <input	id="email-newsletter"	name="email-newsletter"	type="email"	class="form-newslett er__campo">
+          <button	type="submit"	class="form-newsletter__botao">OK</button>
+        </form>	
+      </section>
+
+
       </section>
         
        
