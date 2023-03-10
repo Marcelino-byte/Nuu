@@ -6,8 +6,11 @@ body	{
     font-size:	16px;				
     line-height:	1.5;				
     font-family:	"Helvetica",	"Lucida	Grande",	sans-serif;				
-    color:	#3D3D3D;		
+    color:	#3D3D3D;	
+    /*background-image:	url(../img/home-background.png); */
+    background-color: rgba(216, 107, 107, 0.147);
 }
+
 .titulo	{				
     padding:	10px;
     font-size:	32px;
