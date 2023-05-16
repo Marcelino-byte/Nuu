@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sorteio.css">
+</head>
+<body>
+    <div>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Advinhe o numero</legend>
+            <fieldset>
+                <legend>Digite um numero 1 a 10</legend>
+                <label for="numeroAleatorio" class="resultado">
+                    Numero Aleatorio: <br>
+                    <input type="number" id="numeroAleatorio" disabled>
+                </label>
+                <label for="numeroEscolhido" class="resultado">
+                    Chute: <br>
+                    <input type="number" id="numeroEscolhido" disabled>
+                </label>
+                <div>
+                    <input type="number" step="1" class="numero" id="chute" required>
+                    
+                </div>
+                
+                <button class="btnChute" type="submit" id="btnChute">Chutar</button>
+            </fieldset>
+        </fieldset>
+    </form>
+    </div>
+    <script src="js/sorteio.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Media</title>
+    <link rel="stylesheet" href="css/calcularMedia.css">
+</head>
+<body>
+    <div>
+    <form action="" method="post">
+        <fieldset>
+            <legend class="legenda">Calcular Media</legend>
+            <label class="nota" for="nota1">
+                Nota 1
+                <input type="number" id="nota1" min="0" max="10" step="0.5" required>
+            </label>
+            <label class="nota" for="nota2">
+                Nota 2
+                <input type="number" id="nota2" min="0" max="10" step="0.5" required>
+            </label>
+            <label class="divisao">
+                
+                <button class="botoes" type="submit" value="Calcular" id="calcular">Calcular </button>
+                <button class="botoes" type="reset" value="Limpar" id="limpar">  Limpar</button>
+
+            </label>
+            <fieldset class="fieldset2">
+                <legend class="resultadoTitulo"for="resultado">
+                    Média
+                </legend>
+            <input class="resultado" type="number" id="resultado" disabled>
+            <input class="resultado" type="text" id="aprovacao" disabled>
+
+            </fieldset>
+
+        </fieldset>
+    </form>
+    </div>
+    <script src="js/calcularMedia.js"></script>
+</body>
+</html>

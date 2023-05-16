@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="css/imc.css">
+</head>
+<body>
+    <!--peso /altura * altura-->
+    <form action="" method="POST" id="formulario">
+        <label class="titulo" for="nome">Nome: 
+            <input class="entrada" type="text" id="nome" required>
+        </label>
+        <label class="titulo" for="idade">Idade: 
+            <input class="entrada" type="number" id="idade" required>
+        </label>
+        <label class="titulo" for="altura">Altura: 
+            <input class="entrada" type="number" id="altura" required>
+        </label>
+        <label class="titulo" for="peso">Peso: 
+            <input class="entrada" type="number" id="peso" required>
+        </label>
+        <label class="titulo" for="">
+            <input class="botoes" type="button" value="Apagar" id="apagar">
+            <input class="botoes" type="button" value="Calcular" id="calcular">
+
+        </label>
+        <label class="titulo" for="imc">IMC
+            <input class="entrada" type="number" name="imc" id="imc" value='0.0'disabled>
+            <span id='aviso'></span>
+        </label>
+        <div id="resultado">
+            <h2 class='pessoa'>Exame</h2>
+            <p id="nome" class="pessoa"></p>
+            <p id="idade" class="pessoa"></p>
+            <p id="peso" class="pessoa"></p>
+            <p id="altura" class="pessoa"></p>
+            <p id="imc" class="pessoa"></p>
+            
+            
+
+        </div>
+    </form>
+    
+    <script src="js/imc.js"></script>
+</body>
+</html>

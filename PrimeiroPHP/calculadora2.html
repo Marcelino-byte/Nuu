@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/Hed.css">
+    </head>
+    <body>
+      <header><nav></nav></header>
+      <h1>Calculadora</h1>
+      <main>
+      <section class="formularioBackground">
+      <form method="post" class="gridDoFormulario">
+        <section class="entrada inputPrimeiro">
+          <label for="num1" class="labelPrimeiro">Digite o primeiro número:</label>
+          <input type="number" name="num1" id="num1" class="labelPrimeiro">
+        </section>
+
+        <section class="entrada inputSegundo ">
+        <label for="num2">Digite o segundo número:</label>
+        <input type="number" name="num2" id="num2">
+        </section>
+        <section class="entrada selecionarOperador">
+        <select name="operador" id="operador" class="  selecionarOperador">
+          <option value="soma">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        </section>
+        <section class="entrada enviarDados ">
+        <input type="submit" value="Calcular">
+        </section>
+        
+      </form>
+
+    </section>
+      <br>
+      <div id="resultado" class="resultadoNaPagina"></div>
+    </main>
+    <footer><address><img src="" alt="" srcset=""><a href="calculadora2.html"></a></address></footer>  
+  
+
+    </body>
+    <script src="js/calculadora4.js"></script>
+</html>

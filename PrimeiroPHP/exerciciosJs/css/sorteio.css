@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: Times, 'Times New Roman', serif
+}
+form{
+    width: 320px;
+    height: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -80%);
+    text-align: center;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 15px;
+
+
+}
+
+.numero{
+    height: 2em;
+    width: 60%;
+    display: inline-block;
+    margin-top: 10%;
+    
+
+
+}
+fieldset > legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+fieldset > fieldset > legend{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+}
+fieldset > fieldset {
+    height: 80%;
+    background-color: rgba(255,255,255, 0.1) ;
+    margin-top: 5%;
+}
+.btnChute{
+    background-color: rgba(0, 0, 255, 0.8);
+    margin-top: 10%;
+    height: 3em;
+    width: 50%;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.resultado{
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.3em;
+    /*width: 100%;*/
+}
+.resultado > input {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+}
+
