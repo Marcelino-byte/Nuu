@@ -2,7 +2,7 @@ let sacolaDePalavras = ['Olando','Amora','Manga','Jacare']
 const ultimasLetras =(palavras)=>{
     let ultLetras = []
     for (let i = 0; i < palavras.length; i++) {
-        ultLetras.push(palavras[i].slice(-3));
+        ultLetras.push(palavras[i].slice(0,1));
         
     }
     let novapalavra = ultLetras.join('')
